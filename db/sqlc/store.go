@@ -13,8 +13,8 @@ type Store interface {
 
 // Store provides all functions to execute SQL queries and transactions
 type SQLStore struct {
-	*Queries
 	db *sql.DB
+	*Queries
 }
 
 // NewStore creates a new Store
