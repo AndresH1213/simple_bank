@@ -17,7 +17,7 @@ sql:
         emit_exact_table_names: false
         emit_empty_slices: true
     database:
-      uri: 'postgresql://postgres:postgres@localhost:5432/simple_bank'
+      uri: 'postgresql://root:secret@localhost:5432/simple_bank'
     rules:
       - sqlc/db-prepare
 overrides:
